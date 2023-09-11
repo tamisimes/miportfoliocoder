@@ -1,281 +1,150 @@
+
 @font-face {
-    font-family:Hargetus;
-    src: url(fuentes/Hargetus.ttf);
-}
-* {
+
+    font-family: Corn;
+    
+    src: url(/fuentes/Super\ Corn.ttf)
+    
+    }
+@font-face {
+
+        font-family: Love;
+        
+        src: url(/fuentes/Love\ Nature.otf)
+        
+        }
+    
+
+@font-face {
+
+        font-family: Vigallse;
+        
+        src: url(/fuentes/Vigallse\ -\ Vintage\ Modern\ Serif\ Typeface.ttf)
+        
+        }
+
+*{
     padding: 0;
     margin: 0;
 }
-body {
-    background-color: #E1D5D7;
-}
-.logo {
-    float: left;
-    color: rgb(238, 234, 234);
-    font-family: 'Courier New', Courier, monospace;
-    padding-left: 30px;
-    margin-top: 30px;
-    }
-.logo span {
-    color: #865d49;
-}
 
 header {
-    background-color: #730237;;
-    width:100%;
-    height: 80px;
-    }
+    background-color: #dcd1b4;
+    margin: 0;
+    height: 100px;
+    padding-right: 10px;
+    
+ }
 
 .barra {
-    float: right;
-    padding-right: 30px;
-}
-
-.barra a{
-    color: #D7C2C1;
-}
-.barra a:hover{
-    color:#D7C2C1;
-}
-
-nav li {
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
-    margin-top: 30px;
-    padding-left: 50px;
-    color: #E1D5D7;
-    text-decoration: none;
-  }
-
-nav li a{ 
-    color: solid white;
-    }
-
-div.presentacion h1 {
-    font-size: 70px;
-    padding-left: 17%;
-    letter-spacing: 5px;
-    font-family:'Courier New', Courier, monospace;
-    color:#9B7C68;
-    margin-top: 150px;
-
-
-}
-
-.Tami{ 
-    height: 400px;
-    padding-left: 60%;
-    margin-top: -320px;
-    border-radius: 400px;
-}
-
-div.presentacion h2 {
-    font-size: 35px;
-font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: rgb(83, 78, 41);
-padding-left: 28%;
-margin: 30px;
-}
-
-div.presentacion p {
-    font-size: 25px;
-    color:#9B7C68;
-    font-family: 'Courier New', Courier, monospace ;
-    text-align-last: right;
-    padding-right: 670px;
-    margin-top: 5px;
-}
-
-.kindergarten {
-    padding: 100px;
-    margin: 400px;
-    margin-top: 200px;
-    margin-left: 0px;
-    background-color: #730237	;
-}
-
-.audiovisual {
-    padding: 140px;
-    margin: 200px;
-    margin-top: -220px;
-    padding-left: 20px;
-    margin-right: 0px;
-    background-color: #730237	;
-}
-.kindergarten h2{
-    font-size: 40px;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #9B7C68;
-    font-style: oblique;
-    text-decoration:overline;
-    padding-left: 100px;
-}
-
-.kindergarten .parrafok {
-    font-family: 'Courier New', Courier, monospace;
-    color:#D7C2C1;
-    font-size: 95%;
-    margin-top: 20px;
-    padding-left: 100px;
-
-}
-
-.audiovisual h2{
-    font-size: 40px;
-    margin-top: -30px;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #9B7C68;
-    font-style: oblique;
-text-decoration:overline;
-align-items: center;
-float: right;
-}
-
-.audiovisual .parrafoa {
-    font-family: 'Courier New', Courier, monospace;
-    color:#D7C2C1;
-    font-size: 95%;
-    margin-top: 20px;
-    float: right;
-}
-
-.frontend {
-    padding: 10px;
-    margin: 10px;
-    background-color: #9B7C68;
-    margin-top: -150px;
-    height: 250px;
-}
-
-.frontend .FrontendTitulo {
-    font-size: 90px;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-}
-
-.frontend .FrontendTitulo span {
-    text-decoration: line-through;
-}
-.frontend .developer {
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #D7C2C1;
-    text-align: center;
-}
-
-.frontend .licenciada {
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #D7C2C1;
-    text-align: right;
-}
-
-footer {
-    padding: 100px;
-}
-footer h5 {
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-}
-
-footer a h4 {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-.insta{
-    text-decoration: none;
-}
-
-.about {
-    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    color: #865d49;
-    font-size: 100px;
-    padding: 80px;
-    text-decoration-line: underline;
-    margin-top: -300px;
-    float: right;
-}
-
-.AboutMe {
-    font-family: 'Courier New', Courier, monospace;
-    margin:200px;
-    background-color: #865d49;
-    padding: 200px;
-}
-
-#TamiFoto {
-    height: 600px;
-    margin: 30px;
-    border-radius: 300px
-}
-
-.formulario h2{
-    color: #730237;
-}
-.formulario {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    font-style: italic;
-    padding-left: 400px;
-    margin-top: 200px; 
-}
-
-.actriz {
-    height: 600px;
-    width: 600px;
-    margin:10px;
-}
-
-.actriz2 {
-    height: 600px;
-    float: right;
-    margin:10px;
-
-}
-
-.experiences {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 70px;
-    padding: 200px;
-    color: #865d49;
-}
-
-.experiencesp {
-    text-align: justify;
-    font-size: 25px;
-padding: 200px;
-margin-top: -300px;
-color:#865d49;
-font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-.cuadro1 {
-    border: 10px solid white;
-    padding: 30px;
-    margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin-top: 100px;
+    float:right;
     
 }
 
-.cuadro2 {
-    border: 10px solid white;
-    padding: 30px;
-    margin: 10px;
+.barra a{
+    text-decoration: none;
+    text-shadow: 3px 2px 5px white;
+    color:#b05574 ;
+
+}
+.barra ul li{
+    display: inline-flex;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin-top: 100px;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.barra a:hover {
+    color: white;
 }
 
-.cuadro3 {
-    border: 10px solid white;
-    padding: 30px;
-    margin: 10px;
+.presentacion {
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 500px);
+    justify-content: center;
+}
+
+.item1 {
+    background-color:#b05574;
+    text-align: center;
+
+}
+
+
+
+.item2 {
+    background-color: #dcd1b4;
+    background-image: url(/IMAGENES/300250725_10223611305891033_5607654687812894271_n.jpg);
+    box-sizing: content-box;
+    border:solid #b05574 10px;   
+}
+
+
+h1 {
+    color: #dcd1b4;
+    margin-top: 60px;
+    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    margin-top: 100px;
+    letter-spacing: 10px;
+  }
+
+h2 {
+    color: #dcd1b4;
+    margin-top:50px;
+  
+}
+.item1 p{
+    color: #fab87f;
+    font-size: 25px;
+    margin-top: 50px;
+    box-sizing: content-box;
+
+
+}
+
+footer {
+    background-color: #dcd1b4;
+    height: 200px;
+    text-align: center; 
+    margin-top: -200px; 
+
+}
+
+footer h3{
+    color: #b05574;
+    font-size: 45px;
+    padding: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer h3 span {
+    text-decoration: line-through;
+ }
+
+.logo {
+    font-size: 15px;
+    color:#b05574;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 span {
+    text-decoration:underline;
+    color:#fab87f;
+    font-family: love;
+}
+
+.whatsapp, .instagram {
+    color: #b05574;
+}
+
+.whatsapp:hover {
+    color:#c6a49a;
+}
+.instagram:hover {
+    color:#c6a49a;
+
 }
