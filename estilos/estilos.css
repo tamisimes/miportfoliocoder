@@ -31,7 +31,6 @@
 nav {
     margin: 0;
     height: 100px;
-    padding-right: 10px;
     font-family: 'Courier New', Courier, monospace;
     background-color:#dcd1b4;
     text-shadow: 3px 2px 5px white;
@@ -39,7 +38,6 @@ nav {
  }
 .navbar-nav {
     background-color: #dcd1b4;
-    padding-left: 3%;
     border:solid #b05574 5px;
 
 }
@@ -184,5 +182,40 @@ h2 span {
     }
     .logos-redes {
         margin-top: 10px;
+    }
+}
+
+/* Medida 2 */
+@media only screen and (max-width: 643px) and (min-width: 550px) {
+    .item2 p{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .logos-redes {
+        margin-top: -20px;
+    }
+    footer {
+        height: 250px;
+    }
+    .item1 {
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 950px) and (min-width: 643px) {
+   .item2 p{
+    font-size: 20px;
+    margin-top: 60px;
+   }
+   h2 {
+    font-size: 30px; ;
+   }
+}
+   @media only screen and (max-width: 1100px) and (min-width: 950px) {
+    .item2 p{
+     font-size: 25px;
+    }
+    h1{
+        font-size: 60px;
     }
 }
