@@ -29,17 +29,15 @@
 }
 
 nav {
-    margin: 0;
     height: 100px;
     font-family: 'Courier New', Courier, monospace;
     background-color:#dcd1b4;
     text-shadow: 3px 2px 5px white;
-    font-size: 17px;
+    font-size: 20px;
  }
 .navbar-nav {
     background-color: #dcd1b4;
     border:solid #b05574 5px;
-
 }
 
 #collapsibleNavbar a:hover {
@@ -52,7 +50,6 @@ nav {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(1, 500px);
-    justify-content: center;
 }
 
 .item1 {
@@ -62,8 +59,6 @@ nav {
     background-size: cover;
 
 }
-
-
 
 .item2 {
     background-color:#b05574;
@@ -219,3 +214,4 @@ h2 span {
         font-size: 60px;
     }
 }
+
