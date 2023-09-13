@@ -57,7 +57,6 @@ nav {
     background-image: url(/IMAGENES/300250725_10223611305891033_5607654687812894271_n.jpg);
     box-sizing: content-box;
     background-size: cover;
-
 }
 
 .item2 {
@@ -215,3 +214,23 @@ h2 span {
     }
 }
 
+#contenedor-superior {
+    padding: 6%;
+    border: solid #c6a49a 30px ;
+    margin-top: 10%;
+}
+
+.about-me-h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+}
+
+.about-me {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 3%;
+}
+
+.about-me p {
+    font-size: 200%;
+    color: #b05574;
+}
