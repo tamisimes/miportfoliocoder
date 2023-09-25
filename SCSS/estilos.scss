@@ -1,3 +1,7 @@
+// COLORES
+$rosa: #b05574;
+$marronclarito: #dcd1b4;
+
 
 @font-face {
 
@@ -31,12 +35,12 @@
 nav {
     height: 100px;
     font-family: 'Courier New', Courier, monospace;
-    background-color:#dcd1b4;
+    background-color: $marronclarito;
     text-shadow: 3px 2px 5px white;
     font-size: 20px;
  }
 .navbar-nav {
-    background-color: #dcd1b4;
+    background-color: $marronclarito;
     border:solid #b05574 5px;
 }
 
@@ -53,28 +57,37 @@ nav {
 }
 
 .item1 {
-    background-color: #dcd1b4;
+    background-color: $marronclarito;
     background-image: url(/IMAGENES/300250725_10223611305891033_5607654687812894271_n.jpg);
     box-sizing: content-box;
     background-size: cover;
 }
 
 .item2 {
-    background-color:#b05574;
+    background-color:$rosa;
     text-align: center; 
 }
 
 
 h1 {
-    color: #dcd1b4;
+    color: $marronclarito;
     margin-top: 60px;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 10px;
+    animation-duration: 10s;
+    animation-name: aparecer;
   }
-
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 h2 {
-    color: #dcd1b4;
+    color: $marronclarito;
     margin-top:50px;
 }
 .item2 p{
@@ -87,7 +100,7 @@ h2 {
 }
 
 footer {
-    background-color: #dcd1b4;
+    background-color: $marronclarito;
     height: 200px;
     text-align: center; 
     margin-top: -200px; 
@@ -95,7 +108,7 @@ footer {
 }
 
 footer h3{
-    color: #b05574;
+    color: $rosa;
     font-size: 45px;
     padding: 45px;
     font-family: 'Courier New', Courier, monospace;
@@ -107,7 +120,7 @@ footer h3 span {
 
 .logo {
     font-size: 15px;
-    color:#b05574;
+    color:$rosa;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -118,7 +131,7 @@ h2 span {
 }
 
 .whatsapp, .instagram {
-    color: #b05574;
+    color: $rosa;
 }
 
 .logos-redes {
@@ -137,14 +150,25 @@ h2 span {
 /* Móvil pequeño */
 @media only screen and (max-width: 550px) and (min-width: 360px) {
     header {
-        background-color: #dcd1b4;
+        background-color: $marronclarito;
         margin: 100;
         height: 200px;
      }
     h1 {
         font-size: 25px;
         margin-top: 40px;
-
+        animation-duration: 5s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+    }
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+        
     } 
     .presentacion {
         height: 700px;
@@ -155,7 +179,7 @@ h2 span {
         justify-content: center;
      }
      footer {
-        background-color: #dcd1b4;
+        background-color: $marronclarito;
         height: 260px;
         text-align: center; 
         margin-top: -200px; 
@@ -170,7 +194,7 @@ h2 span {
         margin-top: 40px;
      }
      footer h3{
-        color: #b05574;
+        color: $rosa;
         font-size: 30px;
         margin-top: 100px;
     }
@@ -232,5 +256,11 @@ h2 span {
 
 .about-me p {
     font-size: 200%;
-    color: #b05574;
+    color: $rosa;
+}
+
+.contenedor-formulario {
+    background-image: radial-gradient(circle,$rosa, black);
+    width: 100%;
+    height:500px;
 }
