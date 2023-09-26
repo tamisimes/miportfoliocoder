@@ -18,20 +18,21 @@
 
 nav {
   height: 100px;
-  font-family: "Courier New", Courier, monospace;
   background-color: #dcd1b4;
-  text-shadow: 3px 2px 5px white;
+  font-family: "Courier New", Courier, monospace;
+  font-style: bold font;
+  text-shadow: 1px 1px 10px white;
   font-size: 20px;
 }
 
 .navbar-nav {
-  border: solid #a47f1a 2px;
+  border: solid #3f0632 2px;
   border-radius: 5px;
   background-color: #dcd1b4;
 }
 
 #collapsibleNavbar a:hover {
-  color: #a47f1a;
+  color: #3f0632;
 }
 
 .presentacion {
@@ -231,6 +232,7 @@ h2 span {
 .about-me-h2 {
   font-family: "Courier New", Courier, monospace;
   font-size: 400%;
+  text-align: center;
 }
 
 .about-me {
@@ -238,6 +240,7 @@ h2 span {
   padding-left: 3%;
   background-color: #a47f1a;
   margin-top: -100px;
+  text-align: center;
 }
 
 .about-me p {
@@ -247,15 +250,19 @@ h2 span {
 }
 
 .contenedor-formulario {
-  background-image: radial-gradient(circle, #dcd1b4, #3f0632);
-  width: 100%;
-  height: 700px;
-  margin-top: -50px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
 }
 
 .d-flex {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+}
+
+.contacto-h2 {
+  font-size: 100px;
+  color: #3f0632;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
