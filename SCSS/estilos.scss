@@ -1,6 +1,7 @@
 // COLORES
-$rosa: #b05574;
+$rosa: #3f0632;
 $marronclarito: #dcd1b4;
+$beige: #a47f1a;
 
 
 @font-face {
@@ -40,12 +41,14 @@ nav {
     font-size: 20px;
  }
 .navbar-nav {
+    border:solid $beige 2px;
+    border-radius: 5px;
     background-color: $marronclarito;
-    border:solid #b05574 5px;
+
 }
 
 #collapsibleNavbar a:hover {
-    color: #b05574;
+    color: $beige;
 }
 
 .presentacion {
@@ -75,6 +78,10 @@ h1 {
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 10px;
+}
+h2 {
+    color: $marronclarito;
+    margin-top:50px;
     animation-duration: 10s;
     animation-name: aparecer;
   }
@@ -86,12 +93,9 @@ h1 {
         opacity: 1;
     }
 }
-h2 {
-    color: $marronclarito;
-    margin-top:50px;
-}
+
 .item2 p{
-    color: #fab87f;
+    color: $beige;
     font-size: 30px;
     margin-top: 60px;
     box-sizing: content-box;
@@ -126,8 +130,9 @@ footer h3 span {
 
 h2 span {
     text-decoration:underline;
-    color:#fab87f;
+    color:$marronclarito;
     font-family: love;
+    letter-spacing: 2px;
 }
 
 .whatsapp, .instagram {
@@ -140,10 +145,10 @@ h2 span {
 
 
 .whatsapp:hover {
-    color:#c6a49a;
+    color:$beige;
 }
 .instagram:hover {
-    color:#c6a49a;
+    color: $beige;
 }
 
 
@@ -239,11 +244,14 @@ h2 span {
 }
 
 #contenedor-superior {
-    padding: 6%;
-    border: solid #c6a49a 30px ;
-    margin-top: 10%;
+    padding: 4%;
+    border: solid $rosa 10px ;
 }
-
+.fondo-aboutme {
+    height: 150px;
+    background-color:$beige;
+    margin-top: -20px;
+}
 .about-me-h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 400%;
@@ -252,11 +260,14 @@ h2 span {
 .about-me {
     font-family: 'Courier New', Courier, monospace;
     padding-left: 3%;
+    background-color:$beige;
+    margin-top: -100px; 
 }
 
 .about-me p {
-    font-size: 200%;
+    font-size: 170%;
     color: $rosa;
+    margin-top: 50px;
 }
 
 .contenedor-formulario {
