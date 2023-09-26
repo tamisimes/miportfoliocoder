@@ -65,7 +65,7 @@ h1 {
 h2 {
   color: #dcd1b4;
   margin-top: 50px;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-name: aparecer;
 }
 
@@ -141,7 +141,7 @@ h2 span {
   h1 {
     font-size: 25px;
     margin-top: 40px;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
   }
@@ -247,9 +247,15 @@ h2 span {
 }
 
 .contenedor-formulario {
-  background-image: radial-gradient(circle, #3f0632, black);
+  background-image: radial-gradient(circle, #dcd1b4, #3f0632);
   width: 100%;
-  height: 500px;
+  height: 700px;
+  margin-top: -50px;
+}
+
+.d-flex {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*# sourceMappingURL=estilos.css.map */
