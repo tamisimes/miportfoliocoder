@@ -133,7 +133,7 @@ h2 span {
 }
 
 /* Móvil pequeño */
-@media only screen and (max-width: 550px) and (min-width: 360px) {
+@media only screen and (max-width: 550px) and (min-width: 30gi0px) {
   header {
     background-color: #dcd1b4;
     margin: 100;
@@ -188,7 +188,7 @@ h2 span {
 /* Medida 2 */
 @media only screen and (max-width: 643px) and (min-width: 550px) {
   .item2 p {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 25px;
   }
   .logos-redes {
