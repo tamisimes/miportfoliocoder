@@ -45,10 +45,9 @@ nav {
 }
 
 .item1 {
-  background-color: #dcd1b4;
-  background-image: url(/IMAGENES/300250725_10223611305891033_5607654687812894271_n.jpg);
-  box-sizing: content-box;
+  background-image: url(/imagenes/Tami-inicio.jpg);
   background-size: cover;
+  box-sizing: content-box;
 }
 
 .item2 {
